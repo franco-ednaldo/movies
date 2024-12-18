@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		8911806A2D12672C000260CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891180692D12672C000260CE /* AppDelegate.swift */; };
 		8911806C2D12672C000260CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911806B2D12672C000260CE /* SceneDelegate.swift */; };
+		8911806E2D12672C000260CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911806D2D12672C000260CE /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		891180662D12672C000260CE /* MoviesCurso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesCurso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891180692D12672C000260CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8911806B2D12672C000260CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8911806D2D12672C000260CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -72,6 +74,7 @@
 		891180812D12680E000260CE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8911806D2D12672C000260CE /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8911806E2D12672C000260CE /* LoginViewController.swift in Sources */,
 				8911806A2D12672C000260CE /* AppDelegate.swift in Sources */,
 				8911806C2D12672C000260CE /* SceneDelegate.swift in Sources */,
 			);
